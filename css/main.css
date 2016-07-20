@@ -1,0 +1,123 @@
+
+h1 {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 50px;
+    margin-top: 11%;
+    text-align: center;
+}
+h2 {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 20px;
+	text-align: center;
+}
+
+.error {
+	font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+	color: red;
+	text-align: center;
+}
+#wrapper{ font-family:"Lucida Sans Unicode",Tahoma,sans-serif; }
+
+input[type="text"], input[type="date"], select {
+    box-sizing: border-box;
+    height: 40px;
+    width: 190px;
+}
+
+input[type="number"] {
+    height: 34px;
+    width: 185px;
+}
+
+.bottom-search-area {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    bottom: 35%;
+    left: 0;
+    padding: 30px;
+    right: 0;
+	position: absolute;
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+
+#search_form {
+    margin: 0 5% 0 10%;;
+}
+
+
+#submit_location {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+	height: 43px;
+}
+
+.search-button {
+    vertical-align: baseline;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.btn {
+    -moz-user-select: none;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.43;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-large {
+    font-size: 16px;
+    padding: 9px 27px;
+}
+
+.btn-primary.btn {
+    background-color: #3333AD;
+    border-color: #3333AD #3333AD #00006B;
+    color: #fff;
+}
+.btn-primary.btn:hover, .btn-primary.btn:focus {
+    background-color: #4D4DB8;
+    border-color: #4D4DB8 #4D4DB8 #00006B;
+    color: #fff;
+}
+
+.btn-special {
+   /* background-color: #007a87; EKDILWSI */
+    border-color: #007a87 #007a87 #004f58;
+    color: #fff;
+}
+.btn-special:hover, .btn-special:focus {
+    background-color: #00004c;
+    /*border-color: #009aab #009aab #006671;*/
+    color: #fff;
+}
+
+.tabsBar {
+    -moz-user-select: none;
+    background: linear-gradient(to bottom, #000052 10px, #333385 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #000052;
+    height: 35px;
+    margin: -8px;
+    width: auto;
+}
+
+.tabs {
+    margin: 0 auto;
+    width: 994px;
+}
+
+.error { text-align: center; background-color: #F2DEDE; padding: 10px; color: #a94442; border: 1px solid #a94442;}
+
+.errorprinter {
+margin-top: 10%;
+}
